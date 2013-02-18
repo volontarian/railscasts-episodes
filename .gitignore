@@ -9,3 +9,6 @@
 *.rbc
 **.orig
 .project
+
+# ignore synced repositories
+/episodes
