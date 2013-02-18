@@ -6,7 +6,9 @@ Ruby script to sync Railscasts.com repositories locally based on https://gist.gi
 Usage
 ===================
 
+<pre>
 git clone https://github.com/Applicat/railscasts-episodes.git
 cd railscasts-episodes
 bundle install
 ruby sync_repositories.rb # clones every repository from github.com/railscasts/* which have not been cloned locally yet
+</pre>
