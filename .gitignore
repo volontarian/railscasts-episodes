@@ -11,4 +11,4 @@
 .project
 
 # ignore synced repositories
-/episodes
+/repositories
