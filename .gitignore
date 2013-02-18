@@ -1,18 +1,11 @@
-*.gem
-*.rbc
-.bundle
-.config
-coverage
-InstalledFiles
-lib/bundler/man
-pkg
-rdoc
-spec/reports
-test/tmp
-test/version_tmp
-tmp
+# Ignore bundler config
+/.bundle
+/vendor/bundle
 
-# YARD artifacts
-.yardoc
-_yardoc
-doc/
+# ignore rvmrc
+.rvmrc
+
+# others
+*.rbc
+**.orig
+.project
