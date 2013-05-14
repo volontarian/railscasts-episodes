@@ -9,6 +9,7 @@ Usage
 <pre>
 git clone https://github.com/Applicat/railscasts-episodes.git
 cd railscasts-episodes
-bundle install
+rvm --create use 1.9.3@railscasts-episodes # or use rbenv if you like
+bundle
 ruby sync_repositories.rb # clones every repository from github.com/railscasts/* which have not been cloned locally yet
 </pre>
