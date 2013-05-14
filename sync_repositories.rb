@@ -5,7 +5,7 @@ require 'octokit'
 page = 1
 
 catch(:done) do
-  while (repositories = Octokit.repositories('railscasts', page: page, per_page: 100, sorted: 'created', direction: 'desc')).length > 0
+  while (repositories = Octokit.repositories('railscasts', page: page, per_page: 100, sort: 'created', direction: 'desc')).length > 0
     repositories.each do |repository|
       path = "repositories/#{repository.name}"
       
